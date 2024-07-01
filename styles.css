@@ -1,0 +1,165 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+body {
+    background-color: rgb(240,240,240);
+}
+header {
+    color: #e0e300;
+    background-color: #002147;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.Ananya-Pic {
+    width: 50%;
+    height: 400px;
+    padding-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 20px;
+
+}
+
+#initial-para {
+    width: 80%;
+    background-color: rgb(117, 112, 252);
+    color: white;
+    margin: 10px auto;
+    border-radius: 20px;
+    border: 1px solid black;
+
+}
+
+.div-para {
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+
+}
+
+nav {
+    width: 50%;
+    max-width: 300px;
+    height: 50px;
+
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+}
+
+nav > ul > li {
+    color: #dfdfe2;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block;
+}
+
+nav > ul > li:hover {
+    background-color: #e0e300;
+    color: #002147;
+
+}
+
+li > a {
+    color: inherit;
+    text-decoration: none;
+
+}
+footer {
+    margin: 40px 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.initial-para {
+    width: 100%;
+    background-color: #002147;
+    color: white;
+    margin: 10px auto;
+    border-radius: 20px;
+    border: 1px solid black;
+
+}
+
+.div-para {
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+
+}
+
+.testis {
+    width: 100%;
+    background-color: rgb(117, 112, 252);
+    color: white;
+    margin: 20px auto;
+    border-radius: 20px;
+    border: 1px solid black;
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+
+.testis-para {
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    font-size: 18px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: left;
+}
+
+
+
+.t-pics img {
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    border-radius: 200px;
+    justify-content: center;
+    float: right;
+}
+.t-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.img-container {
+    display: block;
+}
+
+.img-container img {
+    height: 45%;
+    width: 45%;
+    margin: 5px auto;
+    padding: 0;
+
+}
+
+
